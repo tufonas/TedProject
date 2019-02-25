@@ -1,0 +1,164 @@
+@charset "UTF-8";
+.input
+{
+	outline-offset: 0px !important;
+    outline: none !important;
+	padding: 12px 10px;
+	width:70%;									
+	border:1px solid grey;
+	border-radius:3px;
+}
+.boarder{
+	border: 2px solid grey;
+	margin-bottom: 20px;
+	background-color: #adad85;
+}
+
+.applications
+{
+	background-color: none;
+	display:inline-block;
+	border-radius:3px;
+	margin-top:5px;
+	width: 100%;
+}
+body{
+  background-color: none;
+  height: 100%;
+  margin: 0;
+}
+.leftcontainer{
+	
+    text-align:center;
+    background-color:none;
+    border-radius: 5px;
+    padding: 3px;
+    border: none;
+    width:17%;
+	display:inline-block;
+	float:left;
+	margin-left: 10px;
+}
+.info
+{
+	width: 1260px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: none;
+}
+.middle
+{
+   
+    width:700px;
+	margin-left:50px;
+	background-color: none;
+	display:inline-block;
+	text-align: center;
+	margin-top:30px;
+}
+.aggelies
+{
+	border: 2px solid grey;
+	background: #adad85;
+	border-radius: 8px;
+	margin-bottom: 15px;
+}
+.button {
+    background-color: #009999; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    cursor: pointer;
+    color:white;
+    border-radius: 10px;
+}
+.button:hover
+{
+	background-color: #009999;
+	color:black;
+}
+.title
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;	
+}
+.user_name
+{
+	margin-left:20px;
+	text-align: left;	
+}
+
+.textArea
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+ 	padding: 12px 10px;
+    border: 1px solid grey;
+    border-radius: 4px; 
+    background-color: white;
+    text-align: left;
+    resize: vertical;
+}
+textarea.area
+{
+	outline-offset: 0px !important;
+    outline: none !important;
+    height: 150px;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: none;
+    resize: none;
+    width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+p.text
+{
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	background-color: white;
+}
+
+
+.fa {
+  padding: 10px 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:3px;
+  margin-left: 1px;
+ 
+}
+.fa-commenting-o
+{
+	  background: #3B5998;
+      color: white;
+}
+.fa-user {
+  background: #3B5998;
+  color: white;
+}
+.fa-commenting-o:hover
+{
+	background: #3B5998;
+   color: black;
+}
+
+.fa-user:hover
+{
+	background: #3B5998;
+  color: black;
+}

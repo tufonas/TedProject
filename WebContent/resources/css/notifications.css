@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+body
+{
+	  background-color: none;
+	  height: 100%;
+	  margin: 0;
+	  background: url('http://i.hizliresim.com/v4Qykv.png') no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  font-family: 'Roboto', Tahoma, Arial, sans-serif;
+	  line-height: 1.5;
+	  font-size: 13px;
+}
+.footer1
+{
+    margin-top:40px;
+    width: 100%;
+}
+.center
+{
+	    width: 500px;
+	    text-align:center;
+    	margin: 0 auto;
+}
+
+.middle
+{
+	width: 700px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	text-align: center;
+}
+.content
+{
+	width: 100%;
+	background-color: none;
+	border-top: 1px solid black;
+	
+}
+.notification
+{
+	border-bottom: 1px solid grey;
+	text-align: left;
+	padding:10px;
+	background-color: #ffffcc;
+	
+}
+.notification_active
+{
+	border-bottom: 1px solid grey;
+	text-align: left;
+	padding:10px;
+	background-color: #ccffb3;
+	border-top: 1px solid grey;
+	
+}
+
+.friend_request
+{
+	border-bottom: 1px solid grey;
+	text-align: left;
+	padding:10px;
+	background-color: #ccffb3;
+}
+.notification:hover
+{
+	cursor:pointer;
+	background-color: #ccffb3;
+}
+.notification_active:hover
+{
+	cursor:pointer;
+	background-color: #ccffb3;
+}
+
+p
+{
+	margin-left: 10px;
+}
+.bottom
+{
+
+	margin-top:20px;
+	width:100%;
+	border-top: 1px solid black;
+}
+

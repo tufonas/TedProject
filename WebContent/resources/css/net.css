@@ -1,0 +1,109 @@
+@charset "UTF-8";
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: 220px 220px 220px ;
+  grid-gap: 15px;
+  padding: 10px;
+}
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 8px;
+  font-size: 14px;
+  text-align: left;
+  background-color: #ccffb3;
+}
+.button
+{
+	outline-offset: 0px !important;
+    outline: none !important;
+	border:1px solid black;
+	background-color:white;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.footer1
+{
+	width: 700px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center; 
+	margin-top: 200px;
+}
+.button:hover
+{
+	border:1px solid red;
+	color:red;
+	background-color: white;
+}
+.middle
+{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+a
+{
+	color:blue;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+
+
+.form1 {
+  outline: 0;
+  float: right;
+  margin-top:5px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.form1 > .textbox {
+  outline: 0;
+  height: 42px;
+  width: 244px;
+  line-height: 42px;
+  padding: 0 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #212121;
+  border: 0;
+  float: left;
+  -webkit-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+.form1 > .textbox:focus {
+  outline: 0;
+  background-color: #FFF;
+}
+
+.form1 > .button {
+  outline: 0;
+  background: none;
+  background-color: rgba(38, 50, 56, 0.8);
+  float: left;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+  border: 0;
+  color: #FFF;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 14px;
+  text-rendering: auto;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: background-color .4s ease;
+  transition: background-color .4s ease;
+  -webkit-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.form1 > .button:hover {
+  background-color: rgba(0, 150, 136, 0.8);
+}
+
+
